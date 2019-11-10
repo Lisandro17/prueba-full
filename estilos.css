@@ -128,7 +128,7 @@ a {
 }
 
 article:nth-child(1) {
-    background-image: url('img/2-min.jpg');
+    background-image: url('img/producto-01.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ article:nth-child(1) {
 }
 
 article:nth-child(2) {
-    background-image: url('img/3-min.jpg');
+    background-image: url('img/producto-02.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ article:nth-child(2) {
 }
 
 article:nth-child(3) {
-    background-image: url('img/4-min.jpg');
+    background-image: url('img/producto-03.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,18 +161,21 @@ article:nth-child(3) {
   font-family: 'Oswald', sans-serif;
 }
 .contenedor-informacion-tenis h2{
-    font-size: 30px;
-    color:#fff;
+    font-size: 50px;
+    color:#000;
+    margin: 5px 0px;
 }
 
 .contenedor-informacion-tenis h3{
-    font-size: 25px;
-    color:#fff;
+    font-size: 30px;
+    color:#000;
+    margin: 5px 0px;
 }
+
 
 .contenedor-informacion-tenis h5{
     font-size: 25px;
-    color:#fff;
+    color:#000;
 }
 .color-marca{
     color:orange;
