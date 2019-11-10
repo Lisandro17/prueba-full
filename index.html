@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+    <script src="https://kit.fontawesome.com/b066a1a9ad.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <a href="index.html" class="logo">Zacura</a>
+        <ul id="menu" class="menu">
+            <li data-menuanchor="inicio" class="active">
+                <a href="#inicio">Inicio</a>
+            </li>
+
+            <li data-menuanchor="productos">
+                <a href="#productos">Productos</a>
+            </li>
+
+            <li data-menuanchor="contacto">
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div id="fullpage">
+        <header class="section">
+            <div class="contenedor-titulos-header">
+                <h1> <span class="naranja-titulo"> NOVI</span> B-REX</h1>
+                <h2>Nuevos modelos de tenis</h2>
+            </div>
+
+            <div class="contenedor-icono-bajar">
+              <a href="#productos">  <i class="fas fa-chevron-down"></i></a>
+            </div>
+        </header>
+
+        <section class="section" class="productos">
+
+            <article class="slide">
+                <div class="contenedor-informacion-tenis">
+                    <h2>Zatos <span class="color-marca"> Nike</span> Air</h2>
+                    <h3>Super comodos</h3>
+                    <h5>$2,500</h5>
+                </div>
+
+            </article>
+
+            <article class="slide">
+                <div class="contenedor-informacion-tenis">
+                    <h2>Zatos <span class="color-marca"> Nike</span> Air</h2>
+                    <h3>Super comodos</h3>
+                    <h5>$2,500</h5>
+                </div>
+
+            </article>
+
+            <article class="slide">
+                <div class="contenedor-informacion-tenis">
+                    <h2>Zatos <span class="color-marca"> Nike</span> Air</h2>
+                    <h3>Super comodos</h3>
+                    <h5>$2,500</h5>
+                </div>
+
+            </article>
+
+        </section>
+
+        <footer class="section">
+            <div class="contenedor-iconos-redes-sociales">
+               
+                <a href="#" class="facebook">  <i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twitter"> <i class="fab fa-twitter"></i></a>
+
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            scrollHorizontally: true,
+            navigation: true,
+            navigationTooltips: ['Inicio', 'productos', 'Contacto'],
+            menu: '#menu',
+            anchors: ['inicio', 'productos', 'contacto'],
+            sectionsColor: ['#000', '#ccc', '#000']
+
+        });
+    </script>
+</body>
+
+</html>
